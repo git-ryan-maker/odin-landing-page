@@ -1,0 +1,29 @@
+.row-container-outer {
+  display: flex;
+  justify-content: center;
+}
+.row-container-inner {
+  flex: 1;
+  max-width: 1440px;
+  padding: 0 1rem;
+}
+
+.row-header-outer {
+  background-color: #ff0000;
+}
+
+.row-header-inner {
+  display: flex;
+  background-color: #ff8800;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.nav {
+  flex: 1;
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+}
